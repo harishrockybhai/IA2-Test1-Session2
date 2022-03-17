@@ -18,11 +18,11 @@ void output(int a, int b, int c, int isscalene)
 {
   if(isscalene)
   {
-    printf("the triangle of %d %d %d is %d is scalene",a,b,c,isscalene);
+    printf("the triangle of %d %d %d  is scalene",a,b,c);
   }
   else
   {
-    printf("the triangle of %d %d %d is %d is not scalene",a,b,c,isscalene);
+    printf("the triangle of %d %d %d is not scalene",a,b,c);
   }
 }
 int main()
@@ -36,3 +36,5 @@ int main()
   isscalene=check_scalene(a,b,c);
   output(a,b,c,isscalene);
 }
+
+
